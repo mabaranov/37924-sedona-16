@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+
+  <header class="main-header">
+
+    <nav class="main-nav">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active"><a>Главная</a></li>
+        <li class="site-list__item"><a href="#">Фото и видео</a></li>
+        <li class="site-list__item"><a href="#">Форма отзыва</a></li>
+        <li class="site-list__item"><a href="#">HTML ACADEMY</a></li>
+      </ul>
+      <button class="main-nav__toggle main-nav__toggle--open" type="button">Открыть меню</button>
+      <button class="main-nav__toggle main-nav__toggle--close" type="button">Закрыть меню</button>
+    </nav>
+
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="http://placehold.it/150x100" width="150" height="100"
+        alt="Логотип Седона">
+    </a>
+
+  </header>
+
+  <main>
+
+    <div class="promo">
+      <img class="promo__image" src="http://placehold.it/150x100" width="150" height="100"
+        alt="Welcome to the gorgeous Sedona &#8220Because the Grand Canyon sucks!&#8221">
+    </div>
+
+    <h1 class="page-title">Оставьте свой отзыв</h1>
+    <p class="page-description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами
+      достопримечательностях</p>
+
+    <form class="feedback" action="https://echo.htmlacademy.ru" method="GET">
+      <div class="feedback__section">
+        <p class="feedback__title">Представьтесь:</p>
+        <div class="feedback__item">
+          <label for="name">Имя*:</label>
+          <input class="feedback__fio" type="text" placeholder="Петр" id="name" required>
+        </div>
+        <div class="feedback__item">
+          <label for="surname">Фамилия*:</label>
+          <input class="feedback__fio" type="text" placeholder="Иванов" id="surname" required>
+        </div>
+        <div class="feedback__item">
+          <label for="middle-nam">Отчество:</label>
+          <input class="feedback__fio" type="text" placeholder="Александрович" id="middle-name">
+        </div>
+      </div>
+      <div class="feedback__section">
+        <p class="feedback__title">Контактная информация:</p>
+        <div class="feedback__item">
+          <label for="phone">Контактный телефон*:</label>
+          <input class="feedback__phone" type="text" placeholder="Введите телефон" id="phone" required>
+        </div>
+        <div class="feedback__item">
+          <label for="email">Электронная почта*:</label>
+          <input class="feedback__email" type="text" placeholder="Введите e-mail" id="email" required>
+        </div>
+      </div>
+      <div class="feedback__section">
+        <p class="feedback__title">Ваше общее впечатление:</p>
+        <div class="feedback__item">
+          <input class="feedback__impression" type="radio" name="impression" value="+1" id="positive" checked>
+          <label for="positive">Скорее положительное</label>
+        </div>
+        <div class="feedback__item">
+          <input class="feedback__impression" type="radio" name="impression" value="-1" id="negative">
+          <label for="negative">Скорее отрицательное</label>
+        </div>
+        <div class="feedback__item">
+          <input class="feedback__impression" type="radio" name="impression" value="0" id="neutral">
+          <label for="neutral">Затрудняюсь ответить</label>
+        </div>
+      </div>
+      <div class="feedback__section">
+        <p class="feedback__title">Посещенные достопримечательности:</p>
+        <div class="feedback__item">
+          <input class="feedback__attractions" type="checkbox" name="attr1" value="+1" id="attr1" checked>
+          <label for="attr1">Мост Дьявола</label>
+        </div>
+        <div class="feedback__item">
+          <input class="feedback__attractions" type="checkbox" name="attr2" value="+1" id="attr2" checked>
+          <label for="attr2">Гора-Колокол</label>
+        </div>
+        <div class="feedback__item">
+          <input class="feedback__attractions" type="checkbox" name="attr3" value="+1" id="attr3" checked>
+          <label for="attr3">Слайд-парк</label>
+        </div>
+        <div class="feedback__item">
+          <input class="feedback__attractions" type="checkbox" name="attr4" value="+1" id="attr4">
+          <label for="attr4">Красные скалы</label>
+        </div>
+      </div>
+      <div class="feedback__section">
+        <p class="feedback__title">Опишите свои эмоции:</p>
+        <textarea name="comment" placeholder="Опишите подробно все свои восторги"></textarea>
+      </div>
+      <input class="btn" type="submit" value="Отправить отзыв">
+    </form>
+
+  </main>
+
+  <footer class="main-footer">
+
+    <div class="main-footer__hashtag hashtag">
+      <a class="hashtag__link" href="#">#VisitSedona</a>
+    </div>
+
+    <div class="main-footer__social social">
+      <ul class="social__list">
+        <li class="social__item"><a class="social__link social__link--twitter" href="https://twitter.com"
+            target="_blank">Мы в
+            Твитере</a></li>
+        <li class="social__item"><a class="social__link social__link--facebook" href="https://www.facebook.com"
+            target="_blank">Мы в
+            Фейсбуке</a></li>
+        <li class="social__item"><a class="social__link social__link--youtube" href="https://www.youtube.com"
+            target="_blank">Мы на
+            Ютубе</a></li>
+      </ul>
+    </div>
+
+    <div class="main-footer__copyright copyright">
+      <p class="copyright__text">Разработано:</p>
+      <a class="copyright__link" href="https://htmlacademy.ru">HTML Academy</a>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
