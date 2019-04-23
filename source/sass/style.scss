@@ -1,0 +1,24 @@
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+// TODO фоновый цвет, фоновое изображение
+// TODO шрифты, размеры шрифта, межстрочное расстояние, цвет текста
+// TODO внутр. и внеш. отступы и обводка для крупных сеточных блоков
+
