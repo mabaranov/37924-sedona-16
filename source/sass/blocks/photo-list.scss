@@ -1,0 +1,31 @@
+.photo-list {
+  list-style: none;
+}
+
+.photo-list__item {
+
+}
+
+.photo-list__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.photo-list__image {
+
+}
+
+.photo-list__title {
+
+}
+
+.photo-list__author {
+  color: #333333;
+}
+
+.photo-list__like {
+  text-align: left;
+  font-weight: bold;
+  background-image: url("../img/icon-like.svg");
+  background-repeat: no-repeat;
+}

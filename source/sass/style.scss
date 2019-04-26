@@ -1,19 +1,25 @@
 @import "includes/normalize.scss";
 @import "includes/common.scss";
-// header
+// index:header
 @import "blocks/main-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/site-list.scss";
-// main
+// index:main
 @import "blocks/promo.scss";
 @import "blocks/advantages.scss";
+@import "blocks/reasons-list.scss";
 @import "blocks/search-hotels.scss";
 @import "blocks/map.scss";
-// footer
+// index:footer
 @import "blocks/main-footer.scss";
 @import "blocks/hashtag.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
+
+// photo:main
+@import "blocks/page-title.scss";
+@import "blocks/photo.scss";
+@import "blocks/photo-list.scss";
 
 
 // TODO фоновый цвет, фоновое изображение
