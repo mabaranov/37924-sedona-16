@@ -1,0 +1,26 @@
+.social {
+
+}
+
+.social__list {
+  list-style: none;
+}
+
+.social__item {
+
+}
+
+.social__link {
+
+  &--twitter {
+    text-decoration: none;
+  }
+
+  &--facebook {
+    text-decoration: none;
+  }
+
+  &--youtube {
+    text-decoration: none;
+  }
+}
