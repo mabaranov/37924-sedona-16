@@ -1,4 +1,5 @@
 @import "includes/normalize.scss";
+@import "includes/variables.scss";
 @import "includes/common.scss";
 @import "includes/font.scss";
 // index:header
@@ -6,6 +7,7 @@
 @import "blocks/main-nav.scss";
 @import "blocks/site-list.scss";
 // index:main
+@import "blocks/visually-hidden.scss";
 @import "blocks/promo.scss";
 @import "blocks/advantages.scss";
 @import "blocks/reasons-list.scss";
@@ -27,8 +29,3 @@
 // form:main
 @import "blocks/page-description.scss";
 @import "blocks/feedback.scss";
-
-
-// TODO фоновый цвет, фоновое изображение
-// TODO шрифты, размеры шрифта, межстрочное расстояние, цвет текста
-// TODO внутр. и внеш. отступы и обводка для крупных сеточных блоков

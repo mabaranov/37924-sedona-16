@@ -1,4 +1,6 @@
 .main-nav {
+  position: relative;
+  width: 100%;
 }
 
 .main-nav__list {
@@ -7,13 +9,21 @@
 }
 
 .main-nav__toggle {
-
+  position: absolute;
 }
 
 .main-nav__toggle--open {
-
+  right: 5px;
+  top: 225px;
 }
 
 .main-nav__toggle--close {
+  right: 5px;
+  top: 5px;
+}
 
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
 }
