@@ -1,16 +1,25 @@
 .advantages {
-
+  height: 2500px;
 }
 
 .advantages__title {
   font-size: 18px;
   font-weight: bold;
   line-height: 26px;
+
+  padding-top: 19px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .advantages__text {
   line-height: 26px;
   color: #333333;
+
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 8px;
 }
 
 .advantages__list {

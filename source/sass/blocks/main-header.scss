@@ -2,25 +2,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.main-header__logo {
-  width: 108px;
-}
-
-.main-header__logo-image {
-  position: relative;
-  object-fit: contain;
-}
-
-@media (min-width: $tablet-width) {
-  .main-header {
-
-    /* временно для сетки*/
-    height: 56px;
+  @media (min-width: $tablet-width) {
+      /* временно для сетки*/
+      height: 56px;
   }
 }
 
+.main-header__logo {
+
+  @media (min-width: $tablet-width) {
+    margin-top: -56px;
+    z-index: 1;
+
+    width: 102px;
+    height: 84px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 187px;
+    height: 96px;
+  }
+}
+
+.main-header__logo-image {
+
+  //object-fit: contain;
+}
 
 @media (min-width: $desktop-width) {
 }
