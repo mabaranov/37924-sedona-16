@@ -1,7 +1,12 @@
 .reasons-list {
   margin: 0;
   padding: 0;
+  padding-top: 39px;
   list-style: none;
+  background-color: #81b3d2;
+
+  // временно
+  outline: 1px solid red;
 }
 
 .reasons-list__title {
@@ -12,18 +17,23 @@
 
 .reasons-list__number {
   line-height: 21px;
+  margin-top: -10px;
 }
 
 .reasons-list__text {
   line-height: 21px;
+  //padding-left: 27px;
+  //padding-right: 27px;
+  padding-bottom: 28px;
+
 }
 
 .reasons-list__image {
-
+  display: block;
 }
 
 .reasons-list__item {
-  background-color: #81b3d2;
+  //background-color: #81b3d2;
   color: #ffffff;
 
   &--black-text{
@@ -32,5 +42,16 @@
 
   &--gray-bg{
     background-color: #efefef;
+    padding-top: 25px;
   }
+}
+
+.reasons-list__item:nth-child(2) {
+  padding-top: 22px;
+}
+
+.reasons-list__item:nth-child(3) .reasons-list__title,
+.reasons-list__item:nth-child(4) .reasons-list__title,
+.reasons-list__item:nth-child(5) .reasons-list__title {
+  margin: 0;
 }

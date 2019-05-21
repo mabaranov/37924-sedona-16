@@ -5,12 +5,20 @@
 
   background-color: #ffffff;
   color: #000000;
+
+  padding: 34px 41px 9px 70px;
+  text-align: left;
+
+  // временно
+  min-height: 415px;
+  outline: 1px solid red;
 }
 
 .subreasons-list__title {
   font-size: 18px;
   font-weight: bold;
   line-height: 26px;
+  margin: 0;
 }
 
 .subreasons-list__text {
@@ -19,4 +27,9 @@
 }
 
 .subreasons-list__item {
+  min-height: 82px;
+  margin-bottom: 28px;
+
+  // временно
+  outline: 1px solid green;
 }

@@ -4,13 +4,19 @@
   outline: 2px solid red;
 }
 
+.advantages__header {
+  min-height: 215px;
+  // временно
+  outline: 1px solid blue;
+}
+
 .advantages__title {
   font-size: 18px;
   font-weight: bold;
   line-height: 26px;
 
   margin: 0;
-  padding-top: 19px;
+  padding-top: 32px;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -19,7 +25,7 @@
   line-height: 26px;
   color: #333333;
 
-  padding-top: 10px;
+  padding-top: 14px;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 8px;
