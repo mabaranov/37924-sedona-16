@@ -1,6 +1,8 @@
 .advantages {
+  display: flex;
+  flex-direction: column;
   // временно
-  height: 2053px;
+  min-height: 2053px;
   outline: 2px solid red;
 }
 
@@ -33,4 +35,14 @@
 
 .advantages__list {
 
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    // временно
+    min-height: 1300px;
+  }
+  .advantages__header {
+    min-height: 205px;
+  }
 }

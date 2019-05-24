@@ -64,11 +64,15 @@
       </div>
       <ul class="advantages__list reasons-list">
         <li class="reasons-list__item">
-          <h3 class="reasons-list__title">Настоящий городок</h3>
-          <p class="reasons-list__number">&mdash; &#8470;1 &mdash;</p>
-          <p class="reasons-list__text">Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
-          <img class="reasons-list__image" src="img/main-city-mobile@1x.jpg" width="320" height="260"
-            alt="Городок Седона">
+          <div class="reasons-list__wrapper-item">
+            <div class="reasons-list__wrapper-header">
+              <h3 class="reasons-list__title">Настоящий городок</h3>
+              <p class="reasons-list__number">&mdash; &#8470;1 &mdash;</p>
+              <p class="reasons-list__text">Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+            <img class="reasons-list__image" src="img/main-city-mobile@1x.jpg" width="320" height="260"
+              alt="Городок Седона">
+          </div>
           <ul class="reasons-list__subreasons subreasons-list">
             <li class="subreasons-list__item subreasons-list__item--house">
               <h3 class="subreasons-list__title">Жильё</h3>
@@ -85,11 +89,15 @@
           </ul>
         </li>
         <li class="reasons-list__item">
-          <h3 class="reasons-list__title">Там есть мост дьявола</h3>
-          <p class="reasons-list__number">&mdash; &#8470;2 &mdash;</p>
-          <p class="reasons-list__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-          <img class="reasons-list__image" src="img/main-bridge-mobile@1x.jpg" width="320" height="260"
-            alt="Мост дьявола">
+          <div class="reasons-list__wrapper-item">
+            <div class="reasons-list__wrapper-header">
+              <h3 class="reasons-list__title">Там есть мост дьявола</h3>
+              <p class="reasons-list__number">&mdash; &#8470;2 &mdash;</p>
+              <p class="reasons-list__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+            </div>
+            <img class="reasons-list__image" src="img/main-bridge-mobile@1x.jpg" width="320" height="260"
+              alt="Мост дьявола">
+          </div>
         </li>
         <li class="reasons-list__item reasons-list__item--black-text reasons-list__item--gray-bg">
           <h3 class="reasons-list__title">Небольшая площадь</h3>
@@ -118,8 +126,12 @@
     </section>
 
     <section class="map">
-      <img class="map__image" src="img/bg-map-mobile@1x.jpg" width="320" height="350"
-        alt="Карта расположения города Седона">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.jpg">
+        <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.jpg">
+        <img class="map__image" src="img/bg-map-mobile@1x.jpg" width="320" height="350"
+          alt="Карта расположения города Седона">
+      </picture>
     </section>
 
   </main>

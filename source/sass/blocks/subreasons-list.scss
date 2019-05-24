@@ -33,3 +33,10 @@
   // временно
   outline: 1px solid green;
 }
+
+@media (min-width: $tablet-width) {
+  .subreasons-list {
+    display: flex;
+    min-height: 330px;
+  }
+}

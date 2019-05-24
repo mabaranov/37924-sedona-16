@@ -1,8 +1,19 @@
 .map {
-  background-image: url("../img/bg-map-mobile@1x.jpg");
-  background-repeat: no-repeat;
-
   // временно
   height: 354px;
   outline: 1px solid green;
+}
+
+@media (min-width: $tablet-width) {
+  .map__image {
+    width: 768px;
+    height: 350px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__image {
+    width: 1200px;
+    height: 350px;
+  }
 }
